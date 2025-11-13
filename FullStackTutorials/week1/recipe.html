@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Recipe</title>
+
+  
+  <style>
+    /* unviersal selector */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Element Selectors */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: lightblue;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav {
+      background-color: #e0f7fa;
+      text-align: center;
+      padding: 10px;
+    }
+
+    main {
+      padding: 15px;
+    }
+
+    footer {
+      background-color: lightblue;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Class Selector */
+    .highlight {
+      color: brown;
+    }
+
+    /* ID Selector */
+    #title {
+      color: darkblue;
+    }
+
+    /* Attribute Selector */
+    input[type="text"] {
+      border: 1px solid gray;
+      padding: 4px;
+    }
+  </style>
+
+  
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <header>
+    <h1 id="title">My Cookie Recipe</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <article>
+      <section>
+        <h2>Ingredients</h2>
+        <ul>
+          <li>Sugar</li>
+          <li>Butter</li>
+          <li class="highlight">Flour</li>
+          <li>Chocolate chips</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Steps</h2>
+        <ol>
+          <li>Mix all ingredients</li>
+          <li>Make small dough balls</li>
+          <li style="color: red; font-weight: bold;">Bake for 15 minutes</li>
+        </ol>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    <p>Copyright: 2025 My Recipe Website</p>
+  </footer>
+</body>
+</html>
