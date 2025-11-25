@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+         
+</head>
+<body>
+    
+    <header id="hero">
+        <video autoplay loop muted id="video-background">
+            <source src="graphics/hero.mp4" type="video/mp4">
+                Your Browser doesnt support
+        </video>
+        
+        <nav class="navbar">
+            <span class="logo">My Portfolio</span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation" id="menu-button">
+                ☰
+            </button>
+        </nav>
+        
+        <div class="hero-content">
+            <h1>Abhishek Gora</h1>
+            <p>Hiroo Lotspots</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! awdawdawd awd aw daw d awd  aw d awd aw d awd aw d awd aw d aw daw d aw daw d aw daw d aw daw d aw daw d aw daw d aw daw d awd aw d awd aw daw d awd aw d awd aw d awd aw d asfdfhgdfsa dsgfd fsgsa dafsg h gsdhf  dsfj e rtyu tadzvcnvd fy trad zxckj ds adV vcnb ghfd SDb CNXVCM ZC VXVB HHTDRS AEDFVB NM TYDRS AFBNM J SFD MH EAF VBNC  FF BN GS FABN M FAD FVBNM HFDSA sZGdhd  sagh j r hj dgs fG jh  ADFG DHSJH GSH MH G  YT F  H FG YJ TSF  H FGHJ KHG G C  FGHJK JGF FGHJ  FGH FJ FF GH  B H HGA   srgdthfsfhgfjsatydfjh gdhf j fdsa fsdfjgh fd asjgfkh.</p>
+                </div>
+                <div class="about-image">
+                    <div class="about-image">
+    <img src="graphics/immortal.png" alt="immortal" class="profile-img">
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-icon">HTML</div>
+                    <span class="skill-name">HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">CSS</div>
+                    <span class="skill-name">CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">JS</div>
+                    <span class="skill-name">JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">Gaming</div>
+                    <span class="skill-name">game</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">Movies</div>
+                    <span class="skill-name">Watching</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">Chef</div>
+                    <span class="skill-name">Eating</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">Backend</div>
+                    <span class="skill-name">Coder</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">Hacker</div>
+                    <span class="skill-name">hacking</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div id="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #ff6b6b, #ffa36c);"></div>
+                    <h3 class="project-title">E-Commerce Website</h3>
+                    <p class="project-description">A fully responsive e-commerce platform built with React and Node.js. Features include product filtering, shopping cart, and secure checkout.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #6c63ff, #4a9eff);"></div>
+                    <h3 class="project-title">Task Management App</h3>
+                    <p class="project-description">A productivity application that helps users organize tasks, set deadlines, and track progress. Built with Vue.js and Firebase.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4cd964, #5ac8fa);"></div>
+                    <h3 class="project-title">Weather Dashboard</h3>
+                    <p class="project-description">A weather application that displays current conditions and forecasts for multiple cities. Uses OpenWeather API and Chart.js for data visualization.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact me</h2>
+            <div class="contact-container">
+                
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        
+            <p class="copyright">@Copyright</p>
+    
+    </footer>
+
+    <audio id="hover-sound" preload="auto">
+        <source src="https://assets.mixkit.co/active_storage/sfx/286/286-preview.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
